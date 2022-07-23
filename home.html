@@ -16,6 +16,8 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: coral;
     font-size: 18px ;
+    text-shadow: 5px 5px 5px rgb(202, 118, 87);
+    animation: right;
 }
     </style>
     <style>
@@ -25,7 +27,12 @@
             font-weight: 600;
             word-spacing: 6px;
             color: darkslategrey(34, 32, 32);
+          
     
+        }
+        li::selection{
+            background-color: royalblue;
+            color: white;
         }
     </style>
 
@@ -41,7 +48,13 @@
 
         </article>
         <article>
-            <h4 class="article"> PROFESSIONAL SUMMARY </h4>
+            <h4 class="article">
+                <!-- <marquee direction="right" width="600px" height="30px" behavior="sliding"  bgcolor="blanchedalmond"  > -->
+                    PROFESSIONAL SUMMARY 
+                </marquee> 
+
+
+            </h4>
             <ul>
                 <li> Having 1 year of experience in developing single page Web application using Angular 8, HTML5,
                     CSS3,Bootstrap5,Javascript,Typescript. </li>

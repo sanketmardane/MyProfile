@@ -48,17 +48,62 @@
     background-color: aqua;
     margin: 5px;
 }
-body {
+/* body {
     font-family: 'Roboto Slab', serif;
     background-image: url(../resources/hill.jpg); 
     background-repeat: no-repeat;
     background-size: 1400px;
     background-position: center;
+} */
+.overflow{
+    width: 200px;
+    height: 200px;
+    border: 2px solid cadetblue;
+    box-shadow: 5px 4px 5px blueviolet;
+    overflow: auto;
+}
+    </style>
+    <style>
+.float{
+    float:right;
+}
+.div4{
+    /* display: block; */
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+   margin-top: 50px;
+    position: absolute;
+    z-index: 3;
+   
+    /* display: none; */
+}
+.div5{
+    /* display: inline-block; */
+    width: 150px;
+    height: 150px;
+    background-color: rgb(12, 41, 31);
+    color: aliceblue;
+    z-index: 2;
+    /* visibility: hidden; */
+    
 }
     </style>
 </head>
 
 <body>
+
+    <div class="div4">
+        <p> This is paragraph 8 </p>
+    </div>
+    <div class="div5">
+        <p> This is paragraph 7 </p>
+    </div>
+
+    <!-- <P class="overflow">
+        Search Proof Read My Paper. Proof Read My Paper. 100% Privacy Protected and 99% Match. Results & Answers. Unlimited Access.
+         The Best Resources. Privacy Friendly. Always Facts. Services: Best Results, Explore Now, New Sources, Best in Search
+    </P>
   <span class="para"> This is paragraph 1  </span>  
 
     <p class="para1"> This is paragraph 2 </p>
@@ -76,6 +121,14 @@ body {
 
 
     <h5> This is heading 6 </h5>
+
+   <p >  <h3 class="float"> HOBBIES </h3>
+    <ul>
+        <li>Travelling</li>
+        <li>Riding</li>
+        <li>Reading </li>
+    </ul>
+</p> -->
 </body>
 
 </htm

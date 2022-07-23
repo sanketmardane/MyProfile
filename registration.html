@@ -4,6 +4,33 @@
 
 <head>
     <title> Registration Form </title>
+    <style>
+        input[type="text"]{
+            color: gray;
+            text-transform: capitalize;
+            width: 200px;
+            border-radius: 25px;
+            
+        }
+        input [type="number"] ,input [type="password"],input [type="date"], input [type="time"], input [type="file"]
+        {
+            color: cadetblue;
+            width: 200px;
+            border-radius: 25px;
+           
+        }
+        input [type="reset"],input[type="submit"]:hover{
+background-color: aqua;
+        }
+        input:focus{
+            color: cadetblue;
+        }
+        table{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+            color: rgb(1, 5, 12);
+            text-shadow: 2px 2px 3px rgb(132, 216, 205);
+        }
+    </style>
 </head>
 
 <body>
@@ -22,7 +49,7 @@
                     </tr>
                     <tr>
                         <td> <label for="LastName"> Last Name</label> </td>
-                        <td> <input type="text" id="LastName"> </td>
+                        <td> <input type="text" id="LastName" autofocus> </td>
                     </tr>
                     <tr>
                         <td>
@@ -42,7 +69,7 @@
                     </tr>
                     <tr>
                         <td> <label> Password </label></td>
-                        <td> <input type="password" required></td>
+                        <td> <input type="password" autofocus required></td>
                     </tr>
                     <tr>
                         <td> <label> Do you have bank account </label></td>
